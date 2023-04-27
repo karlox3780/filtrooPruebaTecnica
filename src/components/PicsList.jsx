@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { FlatList, Text, RefreshControl, ActivityIndicator, View } from "react-native";
+import { FlatList, RefreshControl, ActivityIndicator, View } from "react-native";
 import PicItem from "./PicItem.jsx";
 
 const PicsList = () => {

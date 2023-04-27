@@ -1,9 +1,9 @@
 import React from 'react';
 import Main from '../components/Main';
 
-const HomeScreen = ({ navigation }) => {
+const HomeScreen = () => {
     return (
-        <Main navigation={navigation} />
+        <Main />
     );
 }
 export default HomeScreen;
